@@ -39,9 +39,7 @@ body{
 }
 
 .profileDetails{
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-right: 20px;
+    padding: 30px 20px 10px 10px ;
     display: flex;
     flex-direction: column;
 }
@@ -58,7 +56,7 @@ h5{
     align-self: center;
 }
 .bio {
-    /* padding: 10px; */
+    padding: 5px;
     word-wrap: break-word;
     line-height: 2;
     /* font-style: italic; */
@@ -118,21 +116,21 @@ h4{
 }
 
 .location-link {
-    display: inline-flex; /* Align icon properly */
+    display: inline-flex; 
     justify-content: center;
     align-items: center;
-    background-color: #090c69; /* Light blue background */
-    color: #fff; /* White icon */
-    text-decoration: none; /* Remove link underline */
-    border-radius: 50%; /* Circular button */
+    background-color: #090c69; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 50%;
     width: 30px;
     height: 30px;
-    font-size: 18px; /* Icon size */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    font-size: 18px; 
+    transition: background-color 0.3s ease;
   }
 
   .location-link:hover {
-    background-color: #0077cc; /* Darker blue on hover */
+    background-color: #0077cc;
 
   }
   .location{
